@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e3f2fd;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 50%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 10px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #90caf9;
+            border-radius: 4px;
+            background-color: #f1f8ff;
+        }
+        .btn {
+            background: #64b5f6;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        .btn:hover {
+            background: #42a5f5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center; color: #1565c0;">Student Registration Form</h2>
+        <form>
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="name" required></td>
+                </tr>
+                <tr>
+                    <td>Contact Number:</td>
+                    <td><input type="tel" name="contact" required></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <select name="gender" required>
+                            <option value="">Select</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea name="address" rows="3" required></textarea></td>
+                </tr>
+                <tr>
+                    <td>Hobbies:</td>
+                    <td><input type="text" name="hobbies"></td>
+                </tr>
+                <tr>
+                    <td>Skillset:</td>
+                    <td><input type="text" name="skillset"></td>
+                </tr>
+                <tr>
+                    <td>Highest Qualification:</td>
+                    <td>
+                        <select name="qualification" required>
+                            <option value="">Select</option>
+                            <option value="High School">High School</option>
+                            <option value="Diploma">Diploma</option>
+                            <option value="Undergraduate">Undergraduate</option>
+                            <option value="Postgraduate">Postgraduate</option>
+                            <option value="PhD">PhD</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>District:</td>
+                    <td>
+                        <select name="district" required>
+                            <option value="">Select</option>
+                            <option value="Adilabad">Adilabad</option>
+                            <option value="Bhadradri Kothagudem">Bhadradri Kothagudem</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Jagtial">Jagtial</option>
+                            <option value="Jangaon">Jangaon</option>
+                            <option value="Jayashankar Bhupalpally">Jayashankar Bhupalpally</option>
+                            <option value="Jogulamba Gadwal">Jogulamba Gadwal</option>
+                            <option value="Kamareddy">Kamareddy</option>
+                            <option value="Karimnagar">Karimnagar</option>
+                            <option value="Khammam">Khammam</option>
+                            <option value="Komaram Bheem Asifabad">Komaram Bheem Asifabad</option>
+                            <option value="Mahabubabad">Mahabubabad</option>
+                            <option value="Mahabubnagar">Mahabubnagar</option>
+                            <option value="Mancherial">Mancherial</option>
+                            <option value="Medak">Medak</option>
+                            <option value="Medchal-Malkajgiri">Medchal-Malkajgiri</option>
+                            <option value="Mulugu">Mulugu</option>
+                            <option value="Nagarkurnool">Nagarkurnool</option>
+                            <option value="Nalgonda">Nalgonda</option>
+                            <option value="Narayanpet">Narayanpet</option>
+                            <option value="Nirmal">Nirmal</option>
+                            <option value="Nizamabad">Nizamabad</option>
+                            <option value="Peddapalli">Peddapalli</option>
+                            <option value="Rajanna Sircilla">Rajanna Sircilla</option>
+                            <option value="Rangareddy">Rangareddy</option>
+                            <option value="Sangareddy">Sangareddy</option>
+                            <option value="Siddipet">Siddipet</option>
+                            <option value="Suryapet">Suryapet</option>
+                            <option value="Vikarabad">Vikarabad</option>
+                            <option value="Wanaparthy">Wanaparthy</option>
+                            <option value="Warangal Rural">Warangal Rural</option>
+                            <option value="Warangal Urban">Warangal Urban</option>
+                            <option value="Yadadri Bhuvanagiri">Yadadri Bhuvanagiri</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <button type="submit" class="btn">Register</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
